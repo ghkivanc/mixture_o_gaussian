@@ -1,0 +1,11 @@
+[package]
+name = "mix_gaussian"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15.0"
+nalgebra = "0.33.0"
+csv = "1.2"
+ndarray-linalg = {version = "*", features = ["openblas"]}
+rand = "0.8"
